@@ -1,0 +1,39 @@
+#!/bin/sh
+
+export EnableConfiguratorSupport="0"
+export WINEDLLOVERRIDES="steam.exe=b;mfplay=n;d3d11=n;d3d10=n;d3d10core=n;d3d10_1=n;dxgi=n;d3d9=n"
+export SDL_VIDEO_X11_DGAMOUSE="0"
+export STEAM_ZENITY="/usr/bin/zenity"
+export SteamStreamingHardwareEncodingNVIDIA="1"
+export STEAM_RUNTIME_LIBRARY_PATH="/home/criss/.local/share/Steam/ubuntu12_32/steam-runtime/pinned_libs_32:/home/criss/.local/share/Steam/ubuntu12_32/steam-runtime/pinned_libs_64:/usr/lib/libfakeroot:/usr/lib32:/usr/lib:/home/criss/.local/share/Steam/ubuntu12_32/steam-runtime/lib/i386-linux-gnu:/home/criss/.local/share/Steam/ubuntu12_32/steam-runtime/usr/lib/i386-linux-gnu:/home/criss/.local/share/Steam/ubuntu12_32/steam-runtime/lib/x86_64-linux-gnu:/home/criss/.local/share/Steam/ubuntu12_32/steam-runtime/usr/lib/x86_64-linux-gnu:/home/criss/.local/share/Steam/ubuntu12_32/steam-runtime/lib:/home/criss/.local/share/Steam/ubuntu12_32/steam-runtime/usr/lib"
+export WINEDEBUG="-all"
+export DXVK_LOG_LEVEL="none"
+export SteamUser="cking4live"
+export SteamStreamingHardwareEncodingAMD="1"
+export STEAM_CLIENT_CONFIG_FILE="/home/criss/.local/share/Steam/steam.cfg"
+export STEAMSCRIPT_VERSION="100061"
+export SteamGameId="39210"
+export LD_LIBRARY_PATH="/home/criss/.local/share/Steam/compatibilitytools.d/Proton-4.15-GE-1/dist/lib64/:/home/criss/.local/share/Steam/compatibilitytools.d/Proton-4.15-GE-1/dist/lib/:/home/criss/.local/share/Steam/ubuntu12_32/steam-runtime/pinned_libs_32:/home/criss/.local/share/Steam/ubuntu12_32/steam-runtime/pinned_libs_64:/usr/lib/libfakeroot:/usr/lib32:/usr/lib:/home/criss/.local/share/Steam/ubuntu12_32/steam-runtime/lib/i386-linux-gnu:/home/criss/.local/share/Steam/ubuntu12_32/steam-runtime/usr/lib/i386-linux-gnu:/home/criss/.local/share/Steam/ubuntu12_32/steam-runtime/lib/x86_64-linux-gnu:/home/criss/.local/share/Steam/ubuntu12_32/steam-runtime/usr/lib/x86_64-linux-gnu:/home/criss/.local/share/Steam/ubuntu12_32/steam-runtime/lib:/home/criss/.local/share/Steam/ubuntu12_32/steam-runtime/usr/lib:"
+export PATH="/home/criss/.local/share/Steam/compatibilitytools.d/Proton-4.15-GE-1/dist/bin/:/home/criss/.local/share/Steam/ubuntu12_32/steam-runtime/amd64/bin:/home/criss/.local/share/Steam/ubuntu12_32/steam-runtime/amd64/usr/bin:/home/criss/.local/share/Steam/ubuntu12_32/steam-runtime/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/home/criss/.asdf/shims:/home/criss/.asdf/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/home/criss/.bin:/home/criss/go/bin"
+export SteamAppId="39210"
+export SteamClientLaunch="1"
+export WINE_MONO_OVERRIDES="Microsoft.Xna.Framework.*,Gac=n"
+export ENABLE_VK_LAYER_VALVE_steam_overlay_1="1"
+export STEAM_COMPAT_CLIENT_INSTALL_PATH="/home/criss/.local/share/Steam"
+export SteamAppUser="cking4live"
+export SHELL="/usr/bin/zsh"
+export SteamStreamingHardwareEncodingIntel="1"
+export STEAM_COMPAT_DATA_PATH="/home/criss/.local/share/Steam/steamapps/compatdata/39210"
+export WINEESYNC="1"
+export TERM="xterm"
+export SDL_GAMECONTROLLERCONFIG="03000000de280000ff11000001000000,Steam Virtual Gamepad,a:b0,b:b1,back:b6,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b8,leftshoulder:b4,leftstick:b9,lefttrigger:a2,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b10,righttrigger:a5,rightx:a3,righty:a4,start:b7,x:b2,y:b3,
+030000005e040000ea02000001030000,Xbox One Wireless Controller (Model 1708),a:b0,b:b1,back:b6,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b8,leftshoulder:b4,leftstick:b9,lefttrigger:a2,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b10,righttrigger:a5,rightx:a3,righty:a4,start:b7,x:b2,y:b3,
+03000000de280000fc11000001000000,Steam Controller,a:b0,b:b1,back:b6,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b8,leftshoulder:b4,leftstick:b9,lefttrigger:a2,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b10,righttrigger:a5,rightx:a3,righty:a4,start:b7,x:b2,y:b3,"
+export STEAM_RUNTIME="/home/criss/.local/share/Steam/ubuntu12_32/steam-runtime"
+export SDL_GAMECONTROLLER_ALLOW_STEAM_VIRTUAL_GAMEPAD="1"
+export WINEDLLPATH="/home/criss/.local/share/Steam/compatibilitytools.d/Proton-4.15-GE-1/dist/lib64//wine:/home/criss/.local/share/Steam/compatibilitytools.d/Proton-4.15-GE-1/dist/lib//wine"
+export WINEPREFIX="/home/criss/.local/share/Steam/steamapps/compatdata/39210/pfx/"
+export WINELOADERNOEXEC="1"
+
+cd $WINEPREFIX/drive_c
+$SHELL
